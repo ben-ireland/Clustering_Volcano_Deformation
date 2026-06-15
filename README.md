@@ -15,20 +15,12 @@ Quick start:
 Note: Before running RecreateClusteringResults.m or Cluster_Own_Data.m, ensure the current working directory is “*/Scripts_and_Results” (use pwd command to check, and cd command to change if needed).
 
 1.	I want to reproduce the figures and clustering from the manuscript
-
-  a.	In MATLAB, open the file “Scripts_and_Results  RecreateClusteringResults.m”
-  
+  a.	In MATLAB, open the file “Scripts_and_Results  RecreateClusteringResults.m
   b.	Run RecreateClusteringResults.m script. Plots will appear as in the paper, and results can be found in the Cluster_Validation_Results, ClusterStats, Paper_Clustering_Results, and Re_Clustered_Results folders. See Files and file structure section for more detail.
 
-
-3.	I want to try different agglomerative hierarchical clustering approaches on the same dataset
-
+2.	I want to try different agglomerative hierarchical clustering approaches on the same dataset
   a.	In MATLAB, open the file “Scripts_and_Results  Cluster_Own_Data.m”
-
-  
   b.	Ensure the line “Catalogue = 'Paper_Dataset_Example.xlsx';” is uncommented (Line 22).
-
-  
   c.	On lines 86 and 87, change DistMethod and LinkMethod to your desired distance metric and linkage criteria. See https://uk.mathworks.com/help/stats/pdist.html and mathworks.com/help/stats/linkage.html for all options
   d.	Run Cluster_Own_Data.m script. Visualisation validation and clustering plots will appear and results can be found in the Example_Results folder. See Files and file structure section for more detail.
 
