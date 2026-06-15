@@ -38,4 +38,3 @@ Note: Before running RecreateClusteringResults.m or Cluster_Own_Data.m, ensure t
 
 5.	I want to do something else
   a.	Please see Files and file structure and individual MATLAB scripts and functions for more detail. If you have a specific request, you can contact the author at the address at the top of the this document.
-<img width="468" height="647" alt="image" src="https://github.com/user-attachments/assets/e8bcab43-b754-43e7-a139-751188d16a1a" />
